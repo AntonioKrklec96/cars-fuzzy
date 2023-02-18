@@ -1,0 +1,8 @@
+izvršiti naredbu -npm install  u mapi CarsFuzzy te u mapi client
+
+pokrenuti mongod.exe
+
+u slučaju da se projekt pokreće prvi puta ili je iz nekog razloga baza prazna baza se može populirati koristeći zakomentiranu funkciju u datoteci server.js (CarsFuzzy/server/server.js  linija 22-30)
+
+u terminalu u mapi CarsFuzzy izvršiti naredbu -npm run dev
+naredba pokreće klijentsku i serversku aplikaciju u isto vrijeme, a da bi se aplikacije pokrenule zasebno moguće je i koristiti naredbe -npm run server  -npm run client
